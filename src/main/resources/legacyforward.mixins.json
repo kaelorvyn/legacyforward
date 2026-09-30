@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.kaelorvyn.legacyforward.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "server": [
+    "ServerHandshakePacketListenerImplMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "legacyforward",
+  "version": "${version}",
+  "name": "Legacy Forward",
+  "description": "读取 Velocity / BungeeCord 的 legacy 转发数据，让 Fabric 服务端拿到玩家真实 IP。服务端专用，纯 Mixin，不需要 Fabric API。",
+  "authors": [
+    "kaelorvyn"
+  ],
+  "license": "MIT",
+  "environment": "server",
+  "accessWidener": "legacyforward.accesswidener",
+  "mixins": [
+    "legacyforward.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}

@@ -1,0 +1,13 @@
+# Gradle
+.gradle/
+build/
+run/
+
+# 构建产物：remapJar 会把成品 jar 拷到项目根
+/legacyforward-*.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.log
