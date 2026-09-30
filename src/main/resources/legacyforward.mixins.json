@@ -3,7 +3,8 @@
   "package": "com.kaelorvyn.legacyforward.mixin",
   "compatibilityLevel": "JAVA_21",
   "server": [
-    "ServerHandshakePacketListenerImplMixin"
+    "ServerHandshakePacketListenerImplMixin",
+    "ClientIntentionPacketMixin"
   ],
   "injectors": {
     "defaultRequire": 1
